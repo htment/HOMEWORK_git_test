@@ -10,3 +10,7 @@
 8. git diff
    git diff --staged
 9. git add .
+
+10. git remote add origin git@github.com:htment/HOMEWORK_git_test.git подключаем удаленный репозиторий
+11. git remote -v просмотр удаленных репозиториев
+12. git push origin master пушим в ветку master
