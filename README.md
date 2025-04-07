@@ -111,12 +111,12 @@ cache/
 
 ```git push origin master```
 
-Ссылка на коммит: Add .gitignore file
+Ссылка на коммит: 
+
+[!Add .gitignore file](https://github.com/htment/HOMEWORK_git_test/tree/10c93856e58a965c8deea7a1e16269ac178489ee)
 
 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
 
 
 ---
@@ -168,11 +168,10 @@ git push origin master
 ```
 8. Ветку dev не удалял, она осталась для дальнейшей работы.
 
-Ссылка на граф коммитов: Граф коммитов
+Ссылка на граф коммитов: [Граф коммитов](https://github.com/htment/HOMEWORK_git_test/network)
 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+
 
 ### Задание 4
 
@@ -209,7 +208,7 @@ git merge conflict
 ```
 git push origin master
 ```
-Ссылка на граф коммитов: Граф коммитов
+Ссылка на граф коммитов: [Граф коммитов](https://github.com/htment/HOMEWORK_git_test/network)
 
 
 `При необходимости прикрепитe сюда скриншоты
