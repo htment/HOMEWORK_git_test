@@ -116,25 +116,58 @@ cache/```
 
 ### Задание 3
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+**ОТВЕТ**
+Задание 3
+1. Создал новую ветку dev и переключился на неё:
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+git checkout -b dev
 ```
+
+2. Создал в ветке dev файл test.sh с произвольным содержимым:
+```
+echo "#!/bin/bash" > test.sh
+echo "echo 'Hello from dev.'" >> test.sh
+chmod +x test.sh
+```
+3. Сделал несколько коммитов и пушей в ветку dev:
+```
+git add test.sh
+git commit -m "Add test.sh with greetings"
+echo "echo 'Second line from dev.'" >> test.sh
+git add test.sh
+git commit -m "Update test.sh - add second line"
+git push origin dev
+```
+4. Переключился на основную ветку:
+```
+git checkout master
+```
+5. Добавил файл main.sh в основной ветке с произвольным содержимым, сделал коммит и пуш:
+```
+echo "#!/bin/bash" > main.sh
+echo "echo 'Hello from main branch.'" >> main.sh
+chmod +x main.sh
+git add main.sh
+git commit -m "Add main.sh with greetings from main"
+git push origin master
+```
+6. Сделал мердж ветки dev в основную:
+```
+git merge dev -m "Merge dev into master"
+```
+7. Сделал пуш в основной ветке:
+```
+git push origin master
+```
+8. Ветку dev не удалял, она осталась для дальнейшей работы.
+
+Ссылка на граф коммитов: Граф коммитов
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота](ссылка на скриншот)`
+
+
 
 ### Задание 4
 
