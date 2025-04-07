@@ -14,3 +14,27 @@
 10. git remote add origin git@github.com:htment/HOMEWORK_git_test.git подключаем удаленный репозиторий
 11. git remote -v просмотр удаленных репозиториев
 12. git push origin master пушим в ветку master
+
+новая ветка
+git checkout -b dev
+
+. Создал в ветке dev файл test.sh с произвольным содержимым:
+echo "#!/bin/bash" > test.sh
+echo "echo 'Hello from dev.'" >> test.sh
+chmod +x test.sh
+
+несколько коммитов и пушей в ветку dev
+git add test.sh
+git commit -m "Add test.sh with greetings"
+echo "echo 'Second line from dev.'" >> test.sh
+git add test.sh
+git commit -m "Update test.sh - add second line"
+git push origin dev
+
+
+git push --set-upstream origin dev в Git используется для отправки локальной ветки dev на 
+git branch -d branchName — безопасное удаление: ветка будет если был merge
+git branch -D branchName — принудительное удаление
+
+
+git checkout -p test test.sh - один файл
