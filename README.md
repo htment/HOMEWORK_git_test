@@ -113,7 +113,7 @@ cache/
 
 Ссылка на коммит: 
 
-[!Add .gitignore file](https://github.com/htment/HOMEWORK_git_test/tree/10c93856e58a965c8deea7a1e16269ac178489ee)
+[Add .gitignore file](https://github.com/htment/HOMEWORK_git_test/tree/10c93856e58a965c8deea7a1e16269ac178489ee)
 
 
 
@@ -168,7 +168,8 @@ git push origin master
 ```
 8. Ветку dev не удалял, она осталась для дальнейшей работы.
 
-Ссылка на граф коммитов: [Граф коммитов](https://github.com/htment/HOMEWORK_git_test/network)
+Ссылка на граф коммитов:
+[Граф коммитов](https://github.com/htment/HOMEWORK_git_test/network)
 
 
 
@@ -208,9 +209,8 @@ git merge conflict
 ```
 git push origin master
 ```
-Ссылка на граф коммитов: [Граф коммитов](https://github.com/htment/HOMEWORK_git_test/network)
+Ссылка на граф коммитов:
+[Граф коммитов](https://github.com/htment/HOMEWORK_git_test/network)
 
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
-1
+
