@@ -89,12 +89,19 @@ git push origin master
 ```git status```
 
 Результат: файл .gitignore находится в состоянии Untracked.
+
 2. Добавил файл .gitignore в следующий коммит:
+
 ```git add .gitignore```
+
 3. Написал правила в .gitignore, чтобы игнорировать файлы .pyc и все файлы в директории cache:
 
-```*.pyc
-cache/```
+
+```
+*.pyc
+cache/
+
+```
 
 4. Сделал коммит:
 
