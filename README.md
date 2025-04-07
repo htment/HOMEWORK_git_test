@@ -74,7 +74,7 @@ git commit -m 'First commit'
 git push origin master
 ```
 
-Ссылка на коммит: First commit
+Ссылка на коммит: [First commit](https://github.com/htment/HOMEWORK_git_test/tree/7809500bb05012e02133feb61845c0b7750fbeee)
 
 
 
