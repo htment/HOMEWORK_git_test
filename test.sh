@@ -5,4 +5,4 @@ www
 =======
 echo 'Conflict line from conflict branch.'
 ddd
-
+www

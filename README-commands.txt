@@ -51,3 +51,6 @@ git rebase -i <хеш_коммита_перед_тем_который_нужно
     * squash:  Объединяет этот коммит с предыдущим.
 
 .  git revert более безопасен в этом отношении.  Если вы не уверены, лучше использовать git revert.
+
+создать подреппозиторий
+git submodule add git@github.com:netology-code/sdvps-materials.git sdvps-materials
