@@ -54,3 +54,18 @@ git rebase -i <хеш_коммита_перед_тем_который_нужно
 
 создать подреппозиторий
 git submodule add git@github.com:netology-code/sdvps-materials.git sdvps-materials
+
+Удалить файл из истории
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch go1.17.5.linux-amd64.tar.gz' --prune-empty --tag-name-filter cat -- --all
+    * --index-filter:  Эта опция указывает, что нужно выполнить команду git rm для удаления файла из индекса (staging area) каждого коммита.
+   * git rm --cached --ignore-unmatch go1.17.5.linux-amd64.tar.gz:  Эта команда удаляет файл из индекса, игнорируя ошибки, если файл не найден в коммите.
+   * --prune-empty:  Эта опция удаляет пустые коммиты, которые могут возникнуть после удаления файла.
+   * --tag-name-filter cat:  Эта опция обрабатывает теги, чтобы избежать проблем с ними.
+   * --all:  Эта опция указывает, что нужно обработать все ветки.
+    
+  . Удалите старую историю:  После завершения filter-branch, старая история всё ещё может суще   старая история всё ещё может существовать, если вы к нему обращаетесь напрямую
+   git reflog expire --expire=now --all
+   git gc --prune=now --aggressive
+   git push origin --force --all
+   git push origin --force --tags
+   
