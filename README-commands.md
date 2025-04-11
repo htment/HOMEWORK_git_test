@@ -8,6 +8,7 @@
 7. git add README.md Перевел файл в состояние staged:
 ---еще раз смотрим изменения
 8. git diff
+  изменения в git
    git diff --staged
 9. git add .
 
